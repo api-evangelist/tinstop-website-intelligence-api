@@ -1,0 +1,68 @@
+name: Tinstop Website Intelligence API
+description: >-
+  A keyless, machine-payable Website Intelligence API for domain security and performance audits, built for AI agents.
+  Access is gated per-request via the x402 payment protocol using USDC on Base — no accounts or API keys. Offers 16
+  pay-per-call endpoints covering DNS/SSL/TLS checks, email authentication (SPF/DKIM/DMARC), HTTP security headers, web
+  performance (PageSpeed), domain recon, and AI-generated audit reports.
+url: https://tinstop-website-intelligence-api.apievangelist.com/apis.yml
+created: '2026-07-19'
+modified: '2026-07-19'
+specificationVersion: '0.21'
+tags:
+  - Website Intelligence
+  - Domain Security
+  - DNS
+  - SSL/TLS
+  - Email Authentication
+  - SPF/DKIM/DMARC
+  - HTTP Security Headers
+  - Web Performance
+  - PageSpeed
+  - OSINT
+  - Agent-native
+  - x402
+  - Micropayments
+  - USDC
+  - Base
+apis:
+  - name: Website Intelligence API
+    description: >-
+      REST API with 16 pay-per-call POST endpoints for domain security and performance audits, payable via x402/USDC on
+      Base. Includes an OpenAPI 3.1 contract plus agent-native surfaces (llms.txt, llms-full.txt, SKILL.md).
+    humanURL: https://tinstop.com/docs
+    baseURL: https://tinstop.com
+    tags:
+      - Website Intelligence
+      - Domain Security
+      - DNS
+      - SSL/TLS
+      - Email Authentication
+      - SPF/DKIM/DMARC
+      - HTTP Security Headers
+      - Web Performance
+      - PageSpeed
+      - OSINT
+      - Agent-native
+      - x402
+      - Micropayments
+      - USDC
+      - Base
+    properties:
+      - type: OpenAPI
+        url: https://tinstop.com/openapi.json
+      - type: Documentation
+        url: https://tinstop.com/docs
+      - type: LLMSTxt
+        url: https://tinstop.com/llms.txt
+      - type: LLMSTxt
+        url: https://tinstop.com/llms-full.txt
+      - type: AgentSkills
+        url: https://tinstop.com/SKILL.md
+maintainers:
+  - FN: Tinstop Website Intelligence API
+    url: https://tinstop.com/
+generated:
+  by: apis.io/add
+  model: claude-opus-4-8
+  confidence: 97
+  at: '2026-07-19T02:19:39.660Z'
